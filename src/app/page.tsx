@@ -14,12 +14,12 @@ import { getAllPosts } from "@/utils/markdown";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Play Next.js - SaaS Starter Kit and Boilerplate for Next.js",
-  description: "Free Next.js SaaS Boilerplate and Starter Kit designed and built for SaaS startups. It comes with all necessary integrations, pages, and components you need to launch a feature-rich SaaS websites.",
+  title: "Create Stunning Images with Flux AI – Online and Free",
+  description: "Generate breathtaking images instantly with Flux AI online. Transform your ideas into reality using our free, AI-powered image generation tool. No downloads, no experience needed – just pure creativity.",
 };
 
 export default function Home() {
-  const posts = getAllPosts(["title", "date", "excerpt", "coverImage", "slug"]);
+  // const posts = getAllPosts(["title", "date", "excerpt", "coverImage", "slug"]);
 
   return (
     <main>
@@ -28,13 +28,14 @@ export default function Home() {
       <Features />
       <About />
       <CallToAction />
-      <Pricing />
+      {/* <Pricing /> */}
       <Testimonials />
       <Faq />
       <Team />
-      <HomeBlogSection posts={posts} />
+      {/* <HomeBlogSection posts={posts} /> */}
       <Contact />
       <Clients />
+      <Faq />
     </main>
   );
 }

@@ -2,10 +2,10 @@ export default function Head() {
   return (
     <>
       <title>
-      Play Next.js - SaaS Starter Kit and Boilerplate for Next.js
+      Create Stunning Images with Flux AI – Online and Free
       </title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
-      <meta name="description" content="This SaaS Boilerplate and Starter Kit for Next.js is designed specifically for SaaS startups. It's a free resource complete with all the necessary integrations, pages, and components you require to build and launch a comprehensive SaaS website with robust features." />
+      <meta name="description" content="Generate breathtaking images instantly with Flux AI online. Transform your ideas into reality using our free, AI-powered image generation tool. No downloads, no experience needed – just pure creativity." />
       <link rel="icon" href="/images/favicon.ico" />
     </>
   );

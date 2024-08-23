@@ -8,8 +8,8 @@ const Features = () => {
       <div className="container">
         <SectionTitle
           subtitle="Features"
-          title="Main Features Of Play"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Main Features Of FluxtoImage"
+          paragraph="FluxtoImage, powered by the FLUX AI models, offers advanced text-to-image generation, enabling users to easily create custom and realistic images, including detailed hands, legible text, and even humorous memes."
         />
 
         <div className="-mx-4 mt-12 flex flex-wrap lg:mt-20">
