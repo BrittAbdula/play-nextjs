@@ -78,7 +78,7 @@ const Signin = () => {
 
               <SocialSignIn />
 
-              <span className="z-1 relative my-8 block text-center">
+              {/* <span className="z-1 relative my-8 block text-center">
                 <span className="-z-1 absolute left-0 top-1/2 block h-px w-full bg-stroke dark:bg-dark-3"></span>
                 <span className="text-body-secondary relative z-10 inline-block bg-white px-3 text-base dark:bg-dark-2">
                   OR
@@ -137,7 +137,7 @@ const Signin = () => {
                 <Link href="/signup" className="text-primary hover:underline">
                   Sign Up
                 </Link>
-              </p>
+              </p> */}
 
               <div>
                 <span className="absolute right-1 top-1">
